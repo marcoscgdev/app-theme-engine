@@ -7,6 +7,38 @@ This is a fork of afollestad's App-Theme-Engine, since he took down the repo. Th
 
 ![Showcase](https://raw.githubusercontent.com/garretyoder/app-theme-engine/master/art/showcase.png)
 
+---
+
+# Gradle Dependency
+
+[![Release](https://jitpack.io/v/garretyoder/app-theme-engine.svg)](https://jitpack.io/#garretyoder/app-theme-engine)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
+
+#### Repository
+
+Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
+
+```gradle
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+#### Dependency
+
+Add this to your module's `build.gradle` file (make sure the version matches the JitPack badge above):
+
+```gradle
+dependencies {
+	compile 'com.github.marcoscgdev:app-theme-engine:1.5'
+}
+```
+
+---
+
 # When To NOT Use This Library
 
 If your app has two themes, a light theme and a dark theme, do not use this library to configure them. 
@@ -46,36 +78,6 @@ Only use this library if you intend to give the user the ability to change the c
 7. [Customizers](https://github.com/garretyoder/app-theme-engine#customizers)
 8. [Material Dialogs Integration](https://github.com/garretyoder/app-theme-engine#material-dialogs-integration)
 9. [Preference UI](https://github.com/garretyoder/app-theme-engine#preference-ui)
-
----
-
-# Gradle Dependency
-
-[![Release](https://jitpack.io/v/garretyoder/app-theme-engine.svg)](https://jitpack.io/#garretyoder/app-theme-engine)
-[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html)
-
-#### Repository
-
-Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
-
-```gradle
-allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
-}
-```
-
-#### Dependency
-
-Add this to your module's `build.gradle` file (make sure the version matches the JitPack badge above):
-
-```gradle
-dependencies {
-	compile 'com.github.marcoscgdev:app-theme-engine:1.5'
-}
-```
 
 ---
 
