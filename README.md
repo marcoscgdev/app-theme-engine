@@ -5,8 +5,6 @@ their apps.
 
 This is a fork of afollestad's App-Theme-Engine, since he took down the repo. This way I and everyone else who used the library can still use it.
 
-![Showcase](https://raw.githubusercontent.com/garretyoder/app-theme-engine/master/art/showcase.png)
-
 ---
 
 # Gradle Dependency
@@ -48,18 +46,15 @@ Only use this library if you intend to give the user the ability to change the c
 
 # Table of Contents
 
-1. [Gradle Dependency](https://github.com/garretyoder/app-theme-engine#gradle-dependency)
-    1. [Repository](https://github.com/garretyoder/app-theme-engine#repository)
-    2. [Dependency](https://github.com/garretyoder/app-theme-engine#dependency)
-2. [How It Works](https://github.com/garretyoder/app-theme-engine#how-it-works)
-3. [Installation](https://github.com/garretyoder/app-theme-engine#installation)
-4. [Configuration](https://github.com/garretyoder/app-theme-engine#configuration)
+1. [How It Works](https://github.com/garretyoder/app-theme-engine#how-it-works)
+2. [Installation](https://github.com/garretyoder/app-theme-engine#installation)
+3. [Configuration](https://github.com/garretyoder/app-theme-engine#configuration)
     1. [The config Method](https://github.com/garretyoder/app-theme-engine#the-config-method)
     2. [Configuration Keys](https://github.com/garretyoder/app-theme-engine#configuration-keys)
     3. [Default Configuration](https://github.com/garretyoder/app-theme-engine#default-configuration)
     4. [Value Retrieval](https://github.com/garretyoder/app-theme-engine#value-retrieval)
     5. [Marking as Changed](https://github.com/garretyoder/app-theme-engine#marking-as-changed)
-5. [Color Tags](https://github.com/garretyoder/app-theme-engine#color-tags)
+4. [Color Tags](https://github.com/garretyoder/app-theme-engine#color-tags)
     1. [Color Options](https://github.com/garretyoder/app-theme-engine#color-options)
     2. [Background Color](https://github.com/garretyoder/app-theme-engine#background-color)
     3. [Text Color](https://github.com/garretyoder/app-theme-engine#text-color)
@@ -71,13 +66,13 @@ Only use this library if you intend to give the user the ability to change the c
     9. [Selector Tint Color](https://github.com/garretyoder/app-theme-engine#selector-tint-color)
     2. [TabLayouts](https://github.com/garretyoder/app-theadme-engine#tablayouts)
     2. [Edge Glow Color](https://github.com/garretyoder/app-theme-engine#edge-glow-color)
-6. [Other Tags](https://github.com/garretyoder/app-theme-engine#other-tags)
+5. [Other Tags](https://github.com/garretyoder/app-theme-engine#other-tags)
     1. [Fonts](https://github.com/garretyoder/app-theme-engine#fonts)
     2. [Text Size](https://github.com/garretyoder/app-theme-engine#text-size)
     2. [Ignore](https://github.com/garretyoder/app-theme-engine#ignore)
-7. [Customizers](https://github.com/garretyoder/app-theme-engine#customizers)
-8. [Material Dialogs Integration](https://github.com/garretyoder/app-theme-engine#material-dialogs-integration)
-9. [Preference UI](https://github.com/garretyoder/app-theme-engine#preference-ui)
+6. [Customizers](https://github.com/garretyoder/app-theme-engine#customizers)
+7. [Material Dialogs Integration](https://github.com/garretyoder/app-theme-engine#material-dialogs-integration)
+8. [Preference UI](https://github.com/garretyoder/app-theme-engine#preference-ui)
 
 ---
 
